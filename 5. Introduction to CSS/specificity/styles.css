@@ -1,0 +1,20 @@
+/* <li>s gets coloured: inherited the styles from parent */
+ul {
+    color: purple;
+}
+
+body {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+.highlight{
+    color: blue;
+}
+
+#special {
+    color: pink;
+}

@@ -1,0 +1,20 @@
+li a {
+    color: red;
+}
+
+h4 + ul {
+    border: 3px solid red;
+}
+
+a[href="http://www.google.co.in"] {
+    background: blue;
+}
+
+ul:nth-of-type(3) {
+    background: purple;
+}
+
+/* select every 2nd li in all the uls  */
+li:nth-of-type(2) {
+    color: rgb(12, 185, 12);
+}

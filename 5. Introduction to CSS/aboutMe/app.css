@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px purple solid;
+}
+
+li {
+    color: green;
+}
+
+h4 {
+    background: rgb(245, 94, 74);
+}
+
+body{
+    background: pink;
+    /* background: url(https://live.staticflickr.com/3086/2705644192_7421d4a9ef_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
