@@ -1,0 +1,19 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    filter: grayscale(100%);
+}
+
+p {
+    font-family: 'Sacramento', cursive;
+    width: 30%;
+    font-weight: 800;
+    margin-left: 1.66%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 60px;
+    border-bottom: 3px solid #f1f1f1f1;
+    /* padding-bottom: 0%; */
+    width: 96.68%;
+}
