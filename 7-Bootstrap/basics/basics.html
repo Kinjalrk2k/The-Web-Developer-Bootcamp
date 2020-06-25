@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Basics</title>
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Bootstrap Basics</h1>
+    <button type="button" class="btn btn-success">Click Me</button>
+    <a href="http://www.google.co.in" class="btn btn-info btn-lg">Click Me</a>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>This is a Jumbotron</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi, totam quis maxime eveniet alias
+                magnam, illum, fuga dolorem vitae quia molestiae at? Eos ullam amet veritatis blanditiis harum sequi.
+            </p>
+            <button class="btn btn-success btn-lg">Hi there!</button>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <form class="form-inline">
+            <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only">Email</label>
+                <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
