@@ -106,8 +106,91 @@ dog.age = 6;
 dog.breed = "Black lab";
 ```` -->
 
-
 *Behind the scenes:  Array is an object with numberd keys!*
+
+## Array of objects
+````js
+var posts = [
+    {
+        title: "Colt hate cats :(",
+        author: "Kinjal",
+        comments: ["Awesome Post", "Terrible Post"]
+    },
+    {
+        title: "Colt are actually awesome!",
+        author: "Cat Luvr",
+        comments: ["Exactly", "<3"]
+    }
+]
+````
+
+## Methods
+- Function inside an object!
+````js
+var object = {
+    name: "Chuck",
+    age: 45,
+    isCool: false,
+    friends: ["Bob", "Tina"],
+    add: function(x, y) {
+        return x + y;
+    }
+};
+````
+
+## Namespace collision
+````js
+function speak(){
+    return "woof!"; //  for dogs
+}
+
+function speak(){
+    return "meow!"; //  for cats
+}   //  declaring this removes the speak for dogs :(
+````
+Instead...
+````js
+var dogSpace = {}
+dogSpace.speak = function speak(){
+    return "woof!"; 
+}
+
+var catSpace = {}
+catSpace.speak = function speak(){
+    return "meow!"; 
+}
+
+dogSpace.speak();   //  for dog speak
+catSpace.speak();   //  for cat speak
+````
+
+## ```this```
+````js
+var comments = {};
+comments.data = ["Good Job", "Bye", "Lame..."];
+````
+From the global window namespace:
+````js
+function print(arr) {
+    arr.forEach(function(el) {
+        console.log(el);
+    });
+}
+
+print(comments.data)   //  prints comments
+````
+As methods:
+````js
+comments.print function () {
+    // this here referes to the objects "comments"
+    this.data.forEach(function(el) {
+        console.log(el);
+    });
+};
+
+comments.print();   //  prints comments
+````
+
 
 > **Quick Tip for Grandma from Colt:**
 > LOL doesn't mean "Leg Of Lamb", but instead means "Laugh Out Loud"
