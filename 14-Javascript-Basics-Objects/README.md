@@ -82,7 +82,7 @@ person.city = "London";
 |   --- |   ---    |   ---    |
 |   Indexing    |   Indexed |   Key-value paired (known as ```dictionary``` in some programming languages)    |
 |   Ordering    |   Ordered |   Unordered   |
-|   Declaring   |   <pre><code class="js">var dogs = {"Rusty", "Lucky", "Bubba"}</code></pre>   |   <pre><code class="js">var dog = {<br>    name: "Bubba",<br>    breed: "Lab"<br>}</code></pre> 
+|   Declaring   |   <pre><code class="js">var dogs = {"Rusty", "Lucky", "Bubba"}</code></pre>   |   <pre><code class="js">var dog = {name: "Bubba", breed: "Lab"}</code></pre> 
 |   Accessing   |   <pre><code class="js">dogs[1];</code></pre>     |  <pre><code class="js">dog.name;</code></pre>     |
 |   Inserting   |    <pre><code class="js">dogs.push("Wyatt");</code></pre>     |   <pre><code class="js">dog.age = 6;</code></pre>     |
 |   Modifying   |   <pre><code class="js">dogs[1] = "Lucy";</code></pre>    |   <pre><code class="js">dog.breed = "Black lab";</code></pre>     |
