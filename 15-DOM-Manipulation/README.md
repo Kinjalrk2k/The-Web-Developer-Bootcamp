@@ -170,3 +170,23 @@ tag.textContent; // "This is an <strong>awesome</strong> paragraph"
 // altering
 tag.textContent = "blah blah blah"; // overwrites <strong> tag
 ```
+
+### Attribute
+- Using ```getAttribute()``` and ```setAttribute()```
+````html
+<a href="www.google.com">I am a link</a>
+<img src="logo.png">
+````
+````js
+var link = document.querySelector("a");
+link.getAttribute("href");  //"www.google.com"
+//CHANGE HREF ATTRIBUTE
+link.setAttribute("href", "www.dogs.com"); 
+//<a href="www.dogs.com">I am a link</a>
+
+//TO CHANGE THE IMAGE SRC
+var img = document.querySelector("img");
+img.setAttribute("src", "corgi.png");
+//<img src="corgi.png">
+````
+
