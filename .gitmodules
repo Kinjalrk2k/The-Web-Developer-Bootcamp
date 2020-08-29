@@ -4,3 +4,6 @@
 [submodule "20-Todo-List-Project"]
 	path = 20-Todo-List-Project
 	url = https://github.com/Kinjalrk2k/Todo-List
+[submodule "21-Patatap-Clone"]
+	path = 21-Patatap-Clone
+	url = https://github.com/Kinjalrk2k/Patatap-Clone
