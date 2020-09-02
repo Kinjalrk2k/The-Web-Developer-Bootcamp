@@ -25,3 +25,21 @@
 - Express just serves the ```views``` directory by default
 - ```app.use(express.static("directory"))``` to serve directory
 
+### Partials
+- Reduces redundancies
+- Partials are templates which we can include on other templates
+- Use ```views/partials``` as the directory to store all the partials
+- ```<% include partial-filename %> ``` - deprecated
+- ```<%- include('partials/filename.ejs') %>``` - use this
+
+### POST requests
+- We use POST request when we are adding data
+- Used in forms
+- ```<form action="/POSTrouteName" method="POST">```
+- ```name``` attribute in the input tag is the key (a property) in the body of the request
+
+### Body Parser
+- Express doesn't make ```req.body``` automatically. We have to explicitly tell Express to form a JS Object using that
+- ```npm install body-parser --save```
+- BodyParser is used to extract data
+- ```app.use(bodyParser.urlencoded({ extended: true }));``` #TODO: Lookup about this!
