@@ -7,3 +7,7 @@
 [submodule "21-Patatap-Clone"]
 	path = 21-Patatap-Clone
 	url = https://github.com/Kinjalrk2k/Patatap-Clone
+[submodule "28-YelpCamp-Basics"]
+	path = 28-YelpCamp-Basics
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v1
