@@ -14,3 +14,7 @@
 [submodule "31-RESTful-Routing"]
 	path = 31-RESTful-Routing
 	url = https://github.com/Kinjalrk2k/RESTful-Blog
+[submodule "30-YelpCamp-Data-Persistence"]
+	path = 30-YelpCamp-Data-Persistence
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v2
