@@ -11,3 +11,6 @@
 	path = 28-YelpCamp-Basics
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v1
+[submodule "31-RESTful-Routing"]
+	path = 31-RESTful-Routing
+	url = https://github.com/Kinjalrk2k/RESTful-Blog
