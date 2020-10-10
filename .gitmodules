@@ -30,3 +30,6 @@
 	path = 33-YelpCamp-Comments/v5
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v5
+[submodule "34-Authentication"]
+	path = 34-Authentication
+	url = https://github.com/Kinjalrk2k/Authenticated-Dashboard
