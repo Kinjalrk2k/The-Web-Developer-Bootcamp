@@ -18,3 +18,15 @@
 	path = 30-YelpCamp-Data-Persistence
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v2
+[submodule "33-YelpCamp-Comments/v3"]
+	path = 33-YelpCamp-Comments/v3
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v3
+[submodule "33-YelpCamp-Comments/v4"]
+	path = 33-YelpCamp-Comments/v4
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v4
+[submodule "33-YelpCamp-Comments/v5"]
+	path = 33-YelpCamp-Comments/v5
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v5
