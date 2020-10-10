@@ -33,3 +33,7 @@
 [submodule "34-Authentication"]
 	path = 34-Authentication
 	url = https://github.com/Kinjalrk2k/Authenticated-Dashboard
+[submodule "35-YelpCamp-Adding-Authentication"]
+	path = 35-YelpCamp-Adding-Authentication
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v6
