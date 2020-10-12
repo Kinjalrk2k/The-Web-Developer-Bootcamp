@@ -49,15 +49,15 @@
 	path = 36-YelpCamp-Cleaning-Up/v9
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v9
-[submodule "37-YelpCamp-UI-Improvements"]
-	path = 37-YelpCamp-UI-Improvements
+[submodule "37-YelpCamp-Update-and-Destroy"]
+	path = 37-YelpCamp-Update-and-Destroy
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v10
-[submodule "37-YelpCamp-UI-Improvements/v11"]
-	path = 37-YelpCamp-UI-Improvements/v11
+[submodule "38-YelpCamp-UI-Improvements/v11"]
+	path = 38-YelpCamp-UI-Improvements/v11
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v11
-[submodule "37-YelpCamp-UI-Improvements/v12"]
-	path = 37-YelpCamp-UI-Improvements/v12
+[submodule "38-YelpCamp-UI-Improvements/v12"]
+	path = 38-YelpCamp-UI-Improvements/v12
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v12
