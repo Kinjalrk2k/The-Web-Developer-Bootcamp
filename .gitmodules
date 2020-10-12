@@ -49,3 +49,7 @@
 	path = 36-YelpCamp-Cleaning-Up/v9
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v9
+[submodule "37-YelpCamp-UI-Improvements"]
+	path = 37-YelpCamp-UI-Improvements
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v10
