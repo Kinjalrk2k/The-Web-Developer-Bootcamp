@@ -37,3 +37,15 @@
 	path = 35-YelpCamp-Adding-Authentication
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v6
+[submodule "36-YelpCamp-Cleaning-Up/v7"]
+	path = 36-YelpCamp-Cleaning-Up/v7
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v7
+[submodule "36-YelpCamp-Cleaning-Up/v8"]
+	path = 36-YelpCamp-Cleaning-Up/v8
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v8
+[submodule "36-YelpCamp-Cleaning-Up/v9"]
+	path = 36-YelpCamp-Cleaning-Up/v9
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v9
