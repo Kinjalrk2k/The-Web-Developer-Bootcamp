@@ -53,3 +53,11 @@
 	path = 37-YelpCamp-UI-Improvements
 	url = https://github.com/Kinjalrk2k/YelpCamp
 	branch = v10
+[submodule "37-YelpCamp-UI-Improvements/v11"]
+	path = 37-YelpCamp-UI-Improvements/v11
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v11
+[submodule "37-YelpCamp-UI-Improvements/v12"]
+	path = 37-YelpCamp-UI-Improvements/v12
+	url = https://github.com/Kinjalrk2k/YelpCamp
+	branch = v12
